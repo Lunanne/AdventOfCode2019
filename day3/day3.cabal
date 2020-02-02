@@ -1,0 +1,27 @@
+cabal-version:       2.4
+name:                day3
+version:             0.1.0.0
+build-type:          Simple
+author:              Anne Marije van der Meer
+maintainer:          anne.marije.meer@gmail.com
+
+library
+  exposed-modules: Day3
+  hs-source-dirs: library
+  build-depends: base, utilAM
+  default-language:    Haskell2010
+
+
+executable day3
+  main-is:             Main.hs
+  build-depends:       base, day3, split
+  hs-source-dirs:      executable
+  default-language:    Haskell2010
+
+test-suite hspec
+    build-depends:    base, day3, hspec, utilAM
+    default-language: Haskell2010
+    hs-source-dirs:   test-suite
+    main-is:          Spec.hs
+    Other-Modules:    Day3Spec
+    type:             exitcode-stdio-1.0

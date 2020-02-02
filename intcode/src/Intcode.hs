@@ -1,5 +1,5 @@
 module Intcode
-  ( operations) where
+  ( operations, executeProgram) where
 
 import Control.Lens
 import Debug.Trace
