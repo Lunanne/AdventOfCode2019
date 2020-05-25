@@ -5,7 +5,7 @@ import Text.Printf
 
 main :: IO ()
 main = do
-    content <- readFile "day1.txt"
+    content <- readFile "day1/day1.txt"
     let lins = lines content
     let masses = map (read) lins
     let part1 = calculateMassFuel masses

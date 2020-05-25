@@ -11,6 +11,13 @@ packages:
       sha256: b5aa38b4298f461a46f724ed898d3d5c610bb7ca351809946cfeaa2ed73d6cb3
   original:
     hackage: HsYAML-0.1.2.0
+- completed:
+    hackage: data-list-sequences-0.1@sha256:7117c2a19e817c76b2785d44e0ca13b44e0364c351e8931999c0be357c34e5f6,1884
+    pantry-tree:
+      size: 227
+      sha256: 7b0c3ac7378b4eed1ddcf31608bb437837deccd3e8ee69feb1cb333919a78f14
+  original:
+    hackage: data-list-sequences-0.1
 snapshots:
 - completed:
     size: 524155

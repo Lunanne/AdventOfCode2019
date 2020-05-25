@@ -46,6 +46,7 @@ packages:
 #
 extra-deps: 
  - HsYAML-0.1.2.0
+ - data-list-sequences-0.1
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
