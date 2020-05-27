@@ -10,4 +10,8 @@ main = do
     let arr = splitOn "," content
     let input = map read arr
     let p1 = part1 input
-    printf "Day 5 Answer part 1 %d \n" p1
+    let diagnostics = all (== 0) (init p1) 
+    print (show p1)
+    printf "Day 5 diagnostics success %s\n" (show diagnostics)
+    printf "Day 5 Answer part 1 %d \n" (last p1)
+

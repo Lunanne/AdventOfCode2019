@@ -13,7 +13,7 @@ add (modes, input, register, inStream, outStream)| trace ("add modes " ++ show m
 add (modes, input, register,inStream, outStream) = 
     ((element out .~ (inA + inB)) register, Nothing)
     where
-      out = register !! (input !! 2)
+      out = input !! 2
       modeA = modes !! 0
       modeB = modes !! 1
       inA = if(modeA == 0) then register !! (input !! 0) else input !! 0
@@ -24,7 +24,7 @@ multi (modes, input, register,inStream, outStream)| trace ("multi modes " ++ sho
 multi (modes, input, register,inStream, outStream) = 
     ((element out .~ (inA * inB)) register, Nothing)
     where
-      out = register !! (input !! 2)
+      out = input !! 2
       modeA = modes !! 0
       modeB = modes !! 1
       inA = if(modeA == 0) then register !! (input !! 0) else input !! 0
@@ -36,11 +36,11 @@ setRegister(modes, input, register, inStream, outStream) =
       ((element parameter .~ inA) register, Just newStream)
        where
         inA = head inStream
-        parameter = register !! (input !! 0)
+        parameter = input !! 0
         newStream = tail inStream
 
 readRegister :: ([Int], [Int], [Int], [Int], [Int]) -> ([Int], Maybe [Int])
-readRegister (modes, input, register, inStream, outStream)| trace ("read output" ++ show (register !! (input !! 0))) False = undefined
+readRegister (modes, input, register, inStream, outStream)| trace ("read output at " ++ show(input !! 0 ) ++" modes " ++ show modes ++ " result " ++ show (register !! (input !! 0))) False = undefined
 readRegister(modes, input, register, inStream, outStream) = 
   (register, Just newStream)
   where
@@ -58,7 +58,7 @@ operations (opcode)
     | otherwise = (readRegister, 1)
 
 executeProgram :: ([Int], Int, [Int], [Int]) -> [Int]
--- executeProgram (a, b)| trace ("register " ++ show a ++ " start pos " ++ show b) False = undefined
+-- executeProgram (a, b, instream, outstream)| trace ("register " ++ show a ++ " start pos " ++ show b) False = undefined
 executeProgram (input, startPos, inStream, outStream)
   | (input !! startPos) == 99 = if((length outStream) /=0) then outStream else input
   | otherwise = executeProgram(newRegister, startPos + operationLength + 1, newInStream, newOutStream)
