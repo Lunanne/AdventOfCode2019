@@ -18,6 +18,62 @@ packages:
       sha256: 7b0c3ac7378b4eed1ddcf31608bb437837deccd3e8ee69feb1cb333919a78f14
   original:
     hackage: data-list-sequences-0.1
+- completed:
+    hackage: ilist-0.4.0.1@sha256:a4f1f0f5084a8c08cd1fbf290d064d81ca889351ddb44422d37e078ac4a783a7,3129
+    pantry-tree:
+      size: 438
+      sha256: aa71fc3f97fc5b640315b3f343e9b898aeac0f3d34a0f6e5659c913fd54d6839
+  original:
+    hackage: ilist-0.4.0.1
+- completed:
+    hackage: number-length-0.2.1.0@sha256:cf2c851ab375e2b151973d1525833bb4318b959369301fc79764d3c7c755d3a6,5912
+    pantry-tree:
+      size: 1256
+      sha256: b971d6cd6fa41c5136cb4c9e52d62ee2d27dcc97ff1dd660a6cdb9c23e93e7ba
+  original:
+    hackage: number-length-0.2.1.0
+- completed:
+    hackage: digits-0.3.1@sha256:39009270485114ee7c51273ccca354c6d4af8408f8f1345d506fc5e638b99273,992
+    pantry-tree:
+      size: 263
+      sha256: 514b46f148370fc857f7d9a1604a510ac732034ecf7d6b0a5b82f0c94fe634ce
+  original:
+    hackage: digits-0.3.1
+- completed:
+    hackage: containers-0.6.0.1@sha256:50024f330653c702a339f7743522b3c2a4fff9c6bf5a7071affe270da2ee649a,15843
+    pantry-tree:
+      size: 4933
+      sha256: 9a33a9d98310bf01b0ee2dd041dfdaaabfcbc07547a4c60443678a22cb114299
+  original:
+    hackage: containers-0.6.0.1
+- completed:
+    hackage: streamly-0.7.2@sha256:173a415316e230e2117365dcd0432f1a7992d42c89b79017df57c9f6581205e3,27421
+    pantry-tree:
+      size: 12739
+      sha256: 72de2ea866d31d0fc6d8008987c014cc2cd2d6d1dcff173702741df3bcd02eb3
+  original:
+    hackage: streamly-0.7.2
+- completed:
+    hackage: implicit-params-0.2.1@sha256:027f9877d9ecd20b4279df95bf813fcec550c48648be2de9c45298f821935a45,917
+    pantry-tree:
+      size: 319
+      sha256: 398f2694e2db7739d540a29bc4e728c7364b13f3f84e37aefe9d56d321299465
+  original:
+    hackage: implicit-params-0.2.1
+- completed:
+    hackage: data-default-class-0.0.1@sha256:ebc9e105820625b9fbceab9c38a9a417f01d36099156eb6ea4e0e7c1b17147e6,462
+    pantry-tree:
+      size: 224
+      sha256: 5d1dea18f6cdd079c8d833b0048e39319888856fa7fa87ef3cdcee7fdbb80f72
+  original:
+    hackage: data-default-class-0.0.1
+- completed:
+    hackage: fusion-plugin-types-0.1.0@sha256:0f11bbc445ab8ae3dbbb3d5d2ea198bdb1ac020518b7f4f7579035dc89182438,1506
+    pantry-tree:
+      size: 378
+      sha256: c349aa6c4e10a57c65ae83eb1082948642b66a97bf0c0b73e57e4d88da89f3cd
+  original:
+    hackage: fusion-plugin-types-0.1.0
 snapshots:
 - completed:
     size: 524155

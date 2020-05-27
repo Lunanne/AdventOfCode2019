@@ -8,7 +8,7 @@ maintainer:          anne.marije.meer@gmail.com
 library
   exposed-modules: Intcode
   hs-source-dirs: src
-  build-depends: base, lens
+  build-depends: base, lens, number-length, digits
 
 test-suite hspec
     build-depends:    base, intcodeAM, hspec

@@ -35,6 +35,7 @@ packages:
 - day2
 - day3
 - day4
+- day5
 # Dependency packages to be pulled from upstream that are not in the resolver.
 # These entries can reference officially published versions as well as
 # forks / in-progress versions pinned to a git hash. For example:
@@ -47,6 +48,14 @@ packages:
 extra-deps: 
  - HsYAML-0.1.2.0
  - data-list-sequences-0.1
+ - ilist-0.4.0.1
+ - number-length-0.2.1.0
+ - digits-0.3.1
+ - containers-0.6.0.1
+ - streamly-0.7.2
+ - implicit-params-0.2.1
+ - data-default-class-0.0.1
+ - fusion-plugin-types-0.1.0
 
 # Override default flag values for local packages and extra-deps
 # flags: {}

@@ -1,19 +1,19 @@
 cabal-version:       2.4
-name:                day2
+name:                day5
 version:             0.1.0.0
 build-type:          Simple
 author:              Anne Marije van der Meer
 maintainer:          anne.marije.meer@gmail.com
 
 library
-  exposed-modules: Day2
+  exposed-modules: Day5
   hs-source-dirs: library
   build-depends: base, intcodeAM, lens
   default-language:    Haskell2010
 
 
-executable day2
+executable day5
   main-is:             Main.hs
-  build-depends:       base, day2, split
+  build-depends:       base, day5, split
   hs-source-dirs:      executable
   default-language:    Haskell2010
