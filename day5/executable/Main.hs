@@ -2,7 +2,7 @@ module Main (main) where
 
 import Text.Printf
 import Data.List.Split
-import Day5(part1)
+import Day5(part1, part2)
 
 main :: IO ()
 main = do
@@ -14,4 +14,5 @@ main = do
     print (show p1)
     printf "Day 5 diagnostics success %s\n" (show diagnostics)
     printf "Day 5 Answer part 1 %d \n" (last p1)
-
+    let p2 = part2 input
+    printf "Day 5 Answer part 2 %d \n" (last p2)
