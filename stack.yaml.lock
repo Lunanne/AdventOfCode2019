@@ -5,12 +5,12 @@
 
 packages:
 - completed:
-    hackage: HsYAML-0.1.2.0@sha256:8e09629f5f023c5a2454000aba83c1a0f4a8ea280433a1614210fbf259add848,3867
+    hackage: HsYAML-0.2.1.0@sha256:6e63cbc919543c5a837040f063e96fe0a4e43bef8ab3c057cef8f122396fdc2d,5469
     pantry-tree:
-      size: 878
-      sha256: b5aa38b4298f461a46f724ed898d3d5c610bb7ca351809946cfeaa2ed73d6cb3
+      size: 1340
+      sha256: 77d9299977dfbc7836cbbcb51fe890bb70d485d9dd89a3bbe54822635faa8108
   original:
-    hackage: HsYAML-0.1.2.0
+    hackage: HsYAML-0.2.1.0
 - completed:
     hackage: data-list-sequences-0.1@sha256:7117c2a19e817c76b2785d44e0ca13b44e0364c351e8931999c0be357c34e5f6,1884
     pantry-tree:
@@ -88,6 +88,13 @@ packages:
       sha256: b8bdc2259e2f943a7252fb164805666fe108ac959d398e0af27b43ba2ebc241c
   original:
     hackage: mtl-2.2.2
+- completed:
+    hackage: HsYAML-aeson-0.2.0.0@sha256:6f9c10b46162fbd1562d89da94b46f3b7e8b5731a71fdb73438a2a251997a490,1853
+    pantry-tree:
+      size: 234
+      sha256: db01d1a92edd78336e0d4a608f0a8153cb8f7612fc8ae9cd45e9014c941d6db9
+  original:
+    hackage: HsYAML-aeson-0.2.0.0
 snapshots:
 - completed:
     size: 524155

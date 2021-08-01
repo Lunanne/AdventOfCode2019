@@ -37,6 +37,7 @@ packages:
 - day4
 - day5
 - day6
+- day7
 # Dependency packages to be pulled from upstream that are not in the resolver.
 # These entries can reference officially published versions as well as
 # forks / in-progress versions pinned to a git hash. For example:
@@ -47,7 +48,7 @@ packages:
 #   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
 #
 extra-deps: 
- - HsYAML-0.1.2.0
+ - HsYAML-0.2.1.0
  - data-list-sequences-0.1
  - ilist-0.4.0.1
  - number-length-0.2.1.0
@@ -59,7 +60,8 @@ extra-deps:
  - fusion-plugin-types-0.1.0
  - split-0.2.3.4
  - mtl-2.2.2
-
+ - HsYAML-aeson-0.2.0.0
+ 
 # Override default flag values for local packages and extra-deps
 # flags: {}
 
